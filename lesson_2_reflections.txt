@@ -41,3 +41,9 @@ branches without A) having to redo the code or copy and paste into a new file in
 order to work on the separate branch and B) without allowing the new experimental
 or new different version affect the fully functioning and stable branch. 
 
+How do the diagrams help you visualize the branch structure?
+The diagrams help me visualize the branch structure by having a constant
+reminder of where the master branch is, and each successive branch back down to it the
+master. It also helps me visualize where branches occured and then helps visualize what
+each branch will include. It never occured to me before that there might be such things
+as unreachable branches. This will help me to create good repositories in the future.
