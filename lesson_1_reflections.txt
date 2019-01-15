@@ -1,0 +1,79 @@
+It's not a secret that my workflow is ... ineffecient.
+Using the diff command on Mac allowed me to see where two bugs 
+were in two documents that were thousands of lines long.
+That would have been very frustrating and emotionally draining
+had I had to do that by hand. It's one of the reasons I have
+been tempted to give up. I just don't work very fast. This
+is a game changer that I'm sure will add back the years
+of my life that I've lost looking for code bugs and 
+improve my overall satisfaction with my chosen career path.
+
+How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+It will make me a more efficient programmer by taking the guess-work
+out of where I went wrong. No more spending hours looking for where I messed up.
+No more demoralizing slogs through endless code to figure out where I 
+changed something. I will be able to compare the full history of my code
+to my current document and find my mistake, fix it, and move on.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros of creating a git commit manually over having each version automatically saved periodically is
+that you will be able to leave notes and decide for yourself which commits are logical to make at
+a given time. The cons of that are that those break points for creating commits will be different
+depending on whoever else is working with you. They may have a different idea of what 
+constitutes a logical change. The pros of having a draft automatically saved is that you don't 
+have to worry that something will happen locally that could jeopardize your project. However
+this is more of a problem for work-from-home people or freelancers who do not have the benefit of 
+a massive corp infrastructure with redundant power and redundant back-ups in case of emergencies. 
+That's a bit of a moot point for anyone who docks a laptop. If the power goes out, you just undock
+the laptop, commit the changes and power down until the power comes back on.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+I think that version control system like Git allow you to save multiple files at once because when it
+comes to code, each file is interdependent on the other. Few tasks in contemporary programming
+that conforms to best practices are done in one file. Modular programming and development means
+there are mutliple features in files being called by others, and Git allows you to ensure that all
+of your files are "talking" to each other. Google Docs and Dropbox are cloud storage, like having a
+backup drive. It's not important to be able to save multiple files at once because the purpose
+of those two softwares has less to do with ensuring a good workflow and has more to do with
+preserving a document at all.
+
+How can you use the commands git log and git diff to view the history of files?
+
+You first type git log to bring up the history of commits on the repository. Then
+you can use git diff to take two of the IDs showin in the overview of commits and compare
+them to see what changes have been made, line by line if needed, and view their notes. Very useful
+and time-saving. An excellent addition to any workflow.
+
+How might using version control make you more confident to make changes that could break something?
+
+This is definitely going to be a stress reducer. As a beginner programmer, I am absolutely terrified
+of making mistakes, not because I'm a terrible person or because I'm afraid I'm being secretly judged
+(very specific here), but because one wrong move could potentially mean an hour or more of tracking
+down what I did wrong. As a student, I don't have time to agonize over mistakes. I need to find them,
+fix them, and move on with my lessons. Also, I don't need the hit to my confidence that coems with
+making a mistake. With version control, I can try out my ideas, and if something breaks, I can use
+git log and git diff to find the errors. I have spent half an afternoon trying to find an error in
+my code that broke a function, and all I did was accidentally remove a tag, or copied something
+when I should have cut it, accidentally leaving in something that should noth ave been there.
+This isn't going to solve all of my problems, but now I can take risks without fear of derailing 
+an entire afternoon of work.
+
+Now that you have your workspace set up, 
+what do you want to try using Git for?
+
+I plan to use Git to push updates to an online porfilio I am hosting
+on heroku. I also will be using Git to do version control and debugging
+for the data analysis and visualization program that I am starting in 
+two weeks.
+
+most recent commit fa4c6bade4970c282b3870ad16f1bde8164663a9
+
+commit found with bugs 547f4171a82ec6429d002c1acef357aec41d3f17
+
+last commit with no bugs 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
