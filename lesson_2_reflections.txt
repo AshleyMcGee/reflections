@@ -17,3 +17,15 @@ logical changes in a way that makes sense and provides clarity to anyone working
 on the same repository as you. It adds value to the git interface by allowing you to
 work independently of the working directory. 
 
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area can be used to ensure you are only making one logical change per
+commit by letting you see which files are in the working directory, which files
+have been staged, and which files are in the most recent commits. You are able
+to compare each environment to make sure the changes in the staging area are changes
+you want committed before hand. This is another facet of the organizational
+aspect that I mentioned before. Git's staging area is great for making sure
+only the things you want committed get commited. Running <emphasis>git status</emphasis>
+will let you see and git diff without arguments will let you compare the working 
+directory to the staging area and git diff --staged will let you compare your
+staged files to the most recent commit. Very useful. 
+
