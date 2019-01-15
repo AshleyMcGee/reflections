@@ -1,0 +1,19 @@
+What happens when you itintialize a repository and why do you need it?
+A repository is where all of my tracked and untracked files are located 
+on the local disk. Contrary to what I thought, I have not pushed 
+anything to the GitHub cloud yet. I need to initialize a repository 
+because that is how GitBash is going to be able to tell GitHub 
+where the tracked files are located on the local disk. Also, the repository
+has the hidden files and meta data necessary to track changes in files located
+inside the repository, unlike a standard directory, which only contains the
+saved files on the hard disk. 
+
+How is the staging are adifferent from the working directory and the repository?
+What value do you think it offers?
+The staging area is different from the working directory because it is a happy 
+medium between the actual files and the commit stage. At this point you aren't changing
+anything. You are just organizing. The staging area you to allows you to set up and organize
+logical changes in a way that makes sense and provides clarity to anyone working
+on the same repository as you. It adds value to the git interface by allowing you to
+work independently of the working directory. 
+
