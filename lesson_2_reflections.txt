@@ -59,4 +59,18 @@ branch creates a sort of large commit that combines a branch with the master. Th
 you can use git diff to look at the differences between the last commit that includes the merge 
 and the commits before. 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+There are a couple pros. Git is a fairly intelligent program that is good at figuring out changes 
+made in which documents and where in each one. For simple changes like total additions or total 
+deletions, Git is good at determining what should be included in the merged branches. However,
+most program corrections are not a matter of simple deletions and additions. The majority of programming
+that I've done involves replacing lines with different code, but never changing position. That's 
+how I stay organized and can keep my place. Git goes line by line looking for changes,but when it
+comes across changes made in place, it has to make choices between the original and the changes presented
+if it can't, it'll throw a conflict. This is good because we don't want it to guess and destroy our
+work. It's better for us to get together and find out what we're changing and what we're keeping. 
+The pros of automatic merging are speedy merges of total deletions and additions 
+and the cons are that Git is not intelligent enough to know when changes are made in place. 
+
+
 
