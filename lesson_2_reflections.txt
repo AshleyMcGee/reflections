@@ -47,3 +47,16 @@ reminder of where the master branch is, and each successive branch back down to 
 master. It also helps me visualize where branches occured and then helps visualize what
 each branch will include. It never occured to me before that there might be such things
 as unreachable branches. This will help me to create good repositories in the future.
+
+What is the result of merging two branches together? Why do we represent it in the diagram 
+the way we do?
+The result of merging two branches together is that the features and changes made in a child
+branch are then interwoven into the current master branch, which forms a new master branch with
+the ability to reach the commits of the child branch along the master branch. I haven't seen our 
+representation of merging in the diagram yet. I would assume that it can be connected to branch 
+from commit with the acts upon color code. If we're going that route, then it is because a merged
+branch creates a sort of large commit that combines a branch with the master. This is true because
+you can use git diff to look at the differences between the last commit that includes the merge 
+and the commits before. 
+
+
