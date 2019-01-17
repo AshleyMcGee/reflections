@@ -98,3 +98,10 @@ without interfereing with anyone else's work. After that, you can do a git fetch
 changes, then git commit and git merge of the origin/master and the master to find inconsistencies
 that will cause a merge conflict. You can fix them, then push the changes and update yourself along
 with origin/master. Very handy for collaboration and resolving conflicts. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would collaborate with either DropBox and Slack or OneDrive and Slack. However, this would be a 
+lot harder to do when working on code because no one can see what changes I'm making and I'd have to
+save every single version of my code as a new version with comments in order for my co-workers to see
+the changes, compare them to their own, and update the main version of the code. Omg I've never heard
+of anything so tedious in all my life. 
