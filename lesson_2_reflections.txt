@@ -105,3 +105,14 @@ lot harder to do when working on code because no one can see what changes I'm ma
 save every single version of my code as a new version with comments in order for my co-workers to see
 the changes, compare them to their own, and update the main version of the code. Omg I've never heard
 of anything so tedious in all my life. 
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+Working directly in master keeps everything stream-lined and visible. Afterall, you can't have
+something be unreachable if everything is in master. However, when you want to work on something
+that directly affects the stable version of the project, you need to branch it off so that your
+changes don't break the code. You would not want to cause conflicts with others working on the
+master branch that would take forever to root out, and possibly break someone else's code, 
+ruining their chances of working peace. Branching keeps everyone separate and organized as well as on
+task with their project manager who will be watching the forks and looking to approve pull requests. 
+
