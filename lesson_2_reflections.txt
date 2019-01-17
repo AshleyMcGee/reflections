@@ -80,3 +80,14 @@ things on my local code that are not ready to be public. I don't want Git to mak
 of when my private work is to become public, and I don't want other people's changes cluttering
 up my code or causing conflicts. 
 
+Describe the differences between forks, clones, and branches. When would you use one instead 
+of another?
+Forks are online clones from github accounts. The copy is sent from the original creator to the
+motherforker who wants to borrow it with proper credit given. Then, I am able to clone that down
+to my local machine to the local repository from my cloud repository. A clone can be a fork in
+itself (it's just a copy of the current code version either local or cloud), but a branch is a 
+separate section of code that may inlcude the master code, but ultimately is different, unlike a 
+fork or clone, which includes everything associated with the master but may not be able to reach
+the branches. You can clone a master, you can fork a master, you can fork a branch, but you may not
+be able to pull the whole branch set down on a clone to a local machine. 
+
