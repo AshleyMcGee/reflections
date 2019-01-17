@@ -72,5 +72,11 @@ work. It's better for us to get together and find out what we're changing and wh
 The pros of automatic merging are speedy merges of total deletions and additions 
 and the cons are that Git is not intelligent enough to know when changes are made in place. 
 
-
+Why might you want to always pull changes manually rather than having Git automatically stay 
+up-to-date with your remote repository?
+I need to be able to pull changes manually to avoid conflicts and protect the anonymity of my
+local code. There might be things I that are on GitHub that I don't want, and there may be 
+things on my local code that are not ready to be public. I don't want Git to make the decision
+of when my private work is to become public, and I don't want other people's changes cluttering
+up my code or causing conflicts. 
 
